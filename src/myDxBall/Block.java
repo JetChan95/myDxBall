@@ -6,7 +6,7 @@ public class Block extends PhysicalBody implements CollisionalBody{
 
 	private Ball ball;
 	private Map map;
-	private int dropValue = 2;//0-100,控制道具掉落率，数值越高掉落了越高，0：无掉落；100：必定掉落
+	private int dropValue = 2;//0-100,控制道具掉落率，数值越高掉落率越高，0：无掉落；100：必定掉落
 	public Block(Map map, Ball ball, int width, int height, Vector2D position) {
 		super(width, height, position);
 		this.map = map;

@@ -147,6 +147,10 @@ public class Map implements KeyListener{
 
     }
 
+    public void dispose() {
+    	this.frame.dispose();
+    }
+    
     public void gameOver() {
     	this.gameOver= true;
     }

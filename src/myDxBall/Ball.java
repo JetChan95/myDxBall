@@ -12,11 +12,6 @@ public class Ball extends PhysicalBody{
 		
 	}
 
-	public static void main(String[] args) {
-		
-	}
-
-	
 	public int getSpeed() {
 		return speed;
 	}
