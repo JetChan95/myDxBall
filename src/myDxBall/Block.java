@@ -36,7 +36,7 @@ public class Block extends PhysicalBody implements CollisionalBody{
 	@Override
 	public void onCollision() {
 		System.out.printf("·¢ÉúÅö×²%d,%d\n",this.getPosition().getX(),this.getPosition().getY());
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		Vector2D newDir = this.ball.getDir();
 		int top = this.getPosition().getY()-this.getHeight()/2;
 		int bottom = top+this.getHeight();
